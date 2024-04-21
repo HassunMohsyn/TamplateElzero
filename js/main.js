@@ -1,9 +1,9 @@
 
-let app = angular.module("myApp",[]);
+// let app = angular.module("myApp",[]);
 
-app.controller("myCTR",function ($scope) {
-  $scope.Skills=['html5','css3','js','python'];
-})
+// app.controller("myCTR",function ($scope) {
+//   $scope.Skills=['html5','css3','js','python'];
+// })
 // Setting box
 
 let Setting_Box = document.querySelector(".Setting_Box");
