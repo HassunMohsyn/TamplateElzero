@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"> -->
+    <link rel="stylesheet" href="/css/all.css">
+    <link rel="stylesheet" href="/css/all.min.css">
+    <link rel="stylesheet" href="/css/container.css">
+    <link rel="stylesheet" href="/css/normalize.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Tamplate1</title>
+</head>
+<body>
+    <div class="Setting_Box">
+        <div class="icon_setting "><i class="fa-solid fa-gear"></i></div>
+        <div class="SettingBox_Container">
+            <div class="OptionBox">
+                <h4>Colors</h4>
+                <ul class="colorsListe">
+                    <li class="active" data-color="#e3a215"></li>
+                    <li data-color="#E91E63"></li>
+                    <li data-color="#009688"></li>
+                    <li data-color="#03A9F4"></li>
+                    <li data-color="#4CAF50"></li>
+                </ul>
+            </div>
+            <div class="OptionBox">
+                <h4>Random BackGrounds</h4>
+                <div class="random_backgrounds">
+                    <span class="yes active" data-random="yes">Yes</span>
+                    <span class="no" data-random="no">No</span>
+                </div>
+                
+            </div>
+            <div class="OptionBox">
+                <h4>Show Bullets</h4>
+                <div class="showBullets">
+                    <span class="yes active" data-show="yes">Yes</span>
+                    <span class="no" data-show="no">No</span>
+                </div>
+            </div>
+            <div class="OptionBox">
+                <h4>Mood</h4>
+                <div class="mood">
+                    <span class="light active" data-mood="light"><i class="fa-solid fa-sun"></i></span>
+                    <span class="dark" data-mood="dark"><i class="fa-solid fa-moon"></i></span>
+                </div>
+            </div>
+            <div class="reset_button">Reset Option</div>
+        </div>
+    </div>
+    <div class="bullets_content">
+        <a href="#about_us" class="bullet"><span> About Us</span></a>
+        <a href="#Skills" class="bullet"><span> Skills</span></a>
+        <a href="#gallery" class="bullet"><span> Gallery</span></a>
+        <a href="#timeLine" class="bullet"><span> Time Line</span></a>
+        <a href="#testimonials" class="bullet"><span> Testimonials</span></a>
+        <a href="#contact" class="bullet"><span> Contact</span></a>
+    </div>
+    <div class="LandingPage">
+        <div class="layout"></div>
+        <div class="container">
+            <div class="HeaderArea">
+                <div class="logo">BlackBear</div>
+                <ul class="links">
+                    <li><a href="#" class="active">About Us</a></li>
+                    <li><a href="#">Skills</a></li>
+                    <li><a href="#">Gallery</a></li>
+                    <li><a href="#">Time Line</a></li>
+                    <li><a href="#">Testimonials</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+                <div class="menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+            <div class="menu_page">
+                <div class="page">
+                        <span> About Us</span>
+                        <span> Skills</span>
+                        <span> Gallery</span>
+                        <span> Time Line</span>
+                        <span> Testimonials</span>
+                        <span> Contact</span>
+                </div>
+            </div>
+        </div>
+        <div class="text">
+            <h1>We Are <span>Creative</span> Agency</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas ratione possimus harum nesciunt ex ea, reprehenderit cupiditate, eaque blanditiis maiores porro obcaecati at ab enim quidem. Harum mollitia hic nulla, quod expedita nobis doloribus nesciunt, veniam voluptas rerum facere adipisci ad corporis magni quisquam ex? Hic doloribus eos ullam soluta!</p>
+        </div>
+    </div>
+    <div class="container">
+        <div class="about-us" id="about_us">
+            <div class="info_box">
+                <h4>About Us</h4>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum ut tempore recusandae veniam ad laboriosam fuga totam vitae sint ab mollitia soluta culpa iusto, dolor neque, earum tempora quia! Est.</p>
+            </div>
+            <div class="img_box">
+                <img src="/images/setting.png" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="Skills_Box" id="Skills">
+        <div class="container">
+            <h2>Skills</h2>
+            <div class="Skill">
+                <div class="Name_Skill">HTML</div>
+                <div class="Progress_Skill">
+                    <span data-progress="90%"></span>
+                </div>
+            </div>
+            <div class="Skill">
+                <div class="Name_Skill">CSS</div>
+                <div class="Progress_Skill">
+                    <span data-progress="80%"></span>
+                </div>
+            </div>
+            <div class="Skill">
+                <div class="Name_Skill">Java Script</div>
+                <div class="Progress_Skill">
+                    <span data-progress="60%"></span>
+                </div>
+            </div>
+            <div class="Skill">
+                <div class="Name_Skill">Python</div>
+                <div class="Progress_Skill">
+                    <span data-progress="90%"></span>
+                </div>
+            </div>
+            <div class="Skill">
+                <div class="Name_Skill">PHP</div>
+                <div class="Progress_Skill">
+                    <span data-progress="20%"></span>
+                </div>
+            </div>
+            <div class="Skill">
+                <div class="Name_Skill">Sql lite</div>
+                <div class="Progress_Skill">
+                    <span data-progress="50%"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="gallery" id="gallery">
+        <div class="container">
+        <h2>Our Gallery</h2>
+        <div class="gallery_Box">
+            <img src="images/1.jpg" alt="">
+            <img src="images/2.jpg" alt="">
+            <img src="images/3.jpg" alt="">
+            <img src="images/4.jpg" alt="">
+            <img src="images/1.jpg" alt="">
+            <img src="images/2.jpg" alt="">
+            <img src="images/3.jpg" alt="">
+            <img src="images/4.jpg" alt="">
+        </div>
+    </div>
+</div>
+<div class="popup_gallery"></div>
+<div class="popup_img">
+    <img src="" alt="">
+    <span class="close_popup">X</span>
+</div>
+<div class="timeLine" id="timeLine">
+    <h2>Time Line</h2>
+    <div class="container">
+
+        <div class="time_content">
+
+            <div class="year">2018</div>
+
+            <div class="left">
+
+                <div class="content">
+                    <h3>Testing Heading</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum magnam ullam quidem voluptate rem voluptatem eveniet ipsam distinctio possimus rerum, iure doloremque, cupiditate assumenda magni accusamus alias itaque, fugit beatae.</p>
+                </div>
+            </div>
+            <div class="clearfix"></div>
+            <div class="right">
+
+                <div class="content">
+                    <h3>Testing Heading</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum magnam ullam quidem voluptate rem voluptatem eveniet ipsam distinctio possimus rerum, iure doloremque, cupiditate assumenda magni accusamus alias itaque, fugit beatae.</p>
+                </div>
+            </div>
+        </div>
+        <div class="time_content">
+
+            <div class="year">2018</div>
+
+            <div class="left">
+
+                <div class="content">
+                    <h3>Testing Heading</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum magnam ullam quidem voluptate rem voluptatem eveniet ipsam distinctio possimus rerum, iure doloremque, cupiditate assumenda magni accusamus alias itaque, fugit beatae.</p>
+                </div>
+            </div>
+            <div class="clearfix"></div>
+            <div class="right">
+
+                <div class="content">
+                    <h3>Testing Heading</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum magnam ullam quidem voluptate rem voluptatem eveniet ipsam distinctio possimus rerum, iure doloremque, cupiditate assumenda magni accusamus alias itaque, fugit beatae.</p>
+                </div>
+            </div>
+            
+        </div>
+        <div class="time_content">
+
+            <div class="year">2018</div>
+
+            <div class="left">
+
+                <div class="content">
+                    <h3>Testing Heading</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum magnam ullam quidem voluptate rem voluptatem eveniet ipsam distinctio possimus rerum, iure doloremque, cupiditate assumenda magni accusamus alias itaque, fugit beatae.</p>
+                </div>
+            </div>
+            <div class="clearfix"></div>
+            <div class="right">
+
+                <div class="content">
+                    <h3>Testing Heading</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum magnam ullam quidem voluptate rem voluptatem eveniet ipsam distinctio possimus rerum, iure doloremque, cupiditate assumenda magni accusamus alias itaque, fugit beatae.</p>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</div>
+<div class="Testimonials" id="testimonials">
+    <h3>Testimonials</h3>
+    <div class="box_monials">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, nesciunt harum qui adipisci quas, facere nihil cum saepe sed dolores voluptas optio tempora nostrum illum</p>
+        <div class="person_info">
+            <img src="" alt="">
+            <h4>Hassun Mohsen</h4>
+            <p>CEO Company Programing</p>
+        </div>
+    </div>
+    <div class="box_monials">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, nesciunt harum qui adipisci quas, facere nihil cum saepe sed dolores voluptas optio tempora nostrum illum</p>
+        <div class="person_info">
+            <img src="" alt="">
+            <h4>Hassun Mohsen</h4>
+            <p>CEO Company Programing</p>
+        </div>
+    </div>
+    <div class="box_monials">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, nesciunt harum qui adipisci quas, facere nihil cum saepe sed dolores voluptas optio tempora nostrum illum</p>
+        <div class="person_info">
+            <img src="" alt="">
+            <h4>Hassun Mohsen</h4>
+            <p>CEO Company Programing</p>
+        </div>
+</div>
+</div>
+<form action="" class="contact" id="contact">
+    <div class="container">
+        <h2>Contact</h2>
+    <div class="contactUs">
+        <div class="left">
+            <input type="text" placeholder="User Name" name="UserName">
+            <input type="number" placeholder="Phone" name="phone">
+            <input type="email" placeholder="Your Email" name="Email">
+            <input type="text" placeholder="Your Subject" name="Subject">
+        </div>
+        <div class="right">
+            <textarea name="textarea" placeholder="Your Massege"></textarea>
+            <input type="submit" value="Send">
+        </div>
+    </div>
+</div>
+</form>
+    <script src="js/main.js"></script>
+</body>
+</html>
